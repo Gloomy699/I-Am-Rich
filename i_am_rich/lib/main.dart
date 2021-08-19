@@ -8,11 +8,11 @@ class IAmRichApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.red.shade900,
+          backgroundColor: Colors.black87,
           title: Text(
             'I Am Rich',
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.white,
               fontSize: 40.0,
             ),
           ),
@@ -21,16 +21,16 @@ class IAmRichApp extends StatelessWidget {
           child: Container(
             child: Image(
               image: AssetImage(
-                'assets/images/dimond.png',
+                'assets/images/diamond.png',
               ),
               fit: BoxFit.fill,
-              color: Colors.black,
+              // color: Colors.black,
             ),
-            width: 300,
-            height: 250,
+            width: 400,
+            height: 350,
           ),
         ),
-        backgroundColor: Colors.red.shade500,
+        backgroundColor: Colors.grey[900],
       ),
     );
   }
